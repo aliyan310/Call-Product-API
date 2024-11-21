@@ -19,10 +19,10 @@ async function GetData(params) {
         <hr />
         <div class="card-body">
         <h6 class="Item-category">${json.category}</h6>
-        <h5 class="card-title">${json.title}</h5>
+        <h5 class="card-title">${json.title}</h5><hr />
         <P>More About This Product</P><div class="Icon-Box">
-        <i class="fa-solid fa-arrow-turn-down"></i></div>
-          <p class="card-discription2">${json.description}</p>
+        </div>
+          <p class="card-discription2">${json.description}</p><hr />
           <h6>Warranty : ${json.warrantyInformation}</h6>
           <h6>InStock : ${json.stock} Piecies</h6>
          <h6>Price : ${json.price}$</h6>

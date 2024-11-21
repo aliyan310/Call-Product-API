@@ -18,9 +18,8 @@ async function GetData(params) {
         <div class="card-body">
         <h6 class="Item-category">${item.category}</h6>
           <h5 class="card-title">${item.title}</h5>
-          <p class="card-discription">${item.description}</p>
           <h6>InStock : ${item.stock}</h6>
-         <h6>Price : ${item.price} PKR</h6><hr>
+         <h6>Price : ${item.price} PKR</h6> 
          <div class="card-inside"><button class="btn" onclick="seeMore(${item.id})">See More</button></div>
           
           
